@@ -8,4 +8,4 @@ outputs:
 - name: updated-gist
 
 run:
-  path: forexamplelyr/tutu/bump-timestamp-file.sh
+  path: resource-tutorial/tutorials/basic/publishing-outputs/bump-timestamp-file.sh
