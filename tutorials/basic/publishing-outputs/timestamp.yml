@@ -1,0 +1,11 @@
+platform: linux
+
+inputs:
+- name: resource-tutorial
+- name: resource-gist
+
+outputs:
+- name: updated-gist
+
+run:
+  path: forexamplelyr/tutu/bump-timestamp-file.sh
