@@ -6,7 +6,6 @@ set -x # print commands
 git clone resource-gist updated-gist
 
 cd updated-gist
-cd tutu
 echo $(date) > bumpme
 
 git config --global user.email "nobody@concourse-ci.org"
