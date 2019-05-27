@@ -11,7 +11,5 @@
         - name: updated-gist
       run:
         path: resource-tutorial/tutorials/basic/publishing-outputs/bump-timestamp-file.sh
-  - put: resource-gist
-    params:
-       repository: updated-gist
+
 
