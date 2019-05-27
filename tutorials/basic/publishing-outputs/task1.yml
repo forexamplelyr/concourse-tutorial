@@ -1,0 +1,17 @@
+ config:
+      platform: linux
+      image_resource:
+        type: docker-image
+        source: { repository: radial/busyboxplus }
+
+      inputs:
+        - name: resource-tutorial
+        - name: resource-gist
+      outputs:
+        - name: updated-gist
+      run:
+        path: resource-tutorial/tutorials/basic/publishing-outputs/bump-timestamp-file.sh
+  - put: resource-gist
+    params:
+       repository: updated-gist
+
