@@ -1,6 +1,6 @@
 #!/bin/sh
 #apt-get install git
-set -e # fail fast
+set -e 
 set -x # print commands
 
 git clone resource-gist updated-gist
